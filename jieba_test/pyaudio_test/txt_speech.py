@@ -2,10 +2,10 @@ from aip import AipSpeech
 import pyttsx3
 import os
 
-"""新建一个ApiSpeech"""
-APP_ID = '25477358'
-API_KEY = 'qwVMmf9y9NYpNcDfeK2utwS3'
-SECRET_KEY = 'Aw8wYs5M4hzNqGix4Rc3Hvv6Do11WIXq'
+"""新建一个ApiSpeech，输入你自己的token"""
+APP_ID = ''
+API_KEY = ''
+SECRET_KEY = ''
 
 client = AipSpeech(APP_ID,API_KEY,SECRET_KEY)
 
